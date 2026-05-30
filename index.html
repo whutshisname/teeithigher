@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tee It Higher — Golf Clubs for Sale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -24,73 +27,136 @@
 
   <section class="hero">
     <div class="hero-inner">
+      <p class="hero-eyebrow">Honest gear. Real prices.</p>
       <h1>Quality Clubs.<br />Fair Prices.</h1>
-      <p class="tagline">Handpicked used golf clubs from a fellow golfer. No fluff, just good gear.</p>
-      <a href="#listings" class="btn">Browse Listings</a>
+      <p class="tagline">Handpicked used golf clubs from a fellow golfer — described the way you'd want them described to you.</p>
+      <a href="#listings" class="btn btn-gold">Browse Listings</a>
     </div>
   </section>
 
+  <div class="trust-bar">
+    <div class="trust-bar-inner">
+      <div class="trust-item">
+        <span class="trust-icon">✓</span>
+        <span>Honestly described</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <span class="trust-icon">📦</span>
+        <span>USPS Priority shipping</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <span class="trust-icon">🤝</span>
+        <span>Golfer to golfer</span>
+      </div>
+    </div>
+  </div>
+
   <section id="listings" class="listings">
     <div class="container">
-      <h2>Clubs for Sale</h2>
+      <div class="section-header">
+        <h2>Clubs for Sale</h2>
+        <p class="section-sub">All clubs are personally gamed and honestly graded. Questions always welcome before you buy.</p>
+      </div>
       <div class="grid">
 
         <div class="card">
           <div class="card-img placeholder-img">🏌️</div>
           <div class="card-body">
-            <h3>Driver — TaylorMade SIM2</h3>
-            <p class="condition">Condition: <span class="badge good">Good</span></p>
+            <div class="card-meta">
+              <span class="club-type">Driver</span>
+              <span class="badge great">Excellent</span>
+            </div>
+            <h3>TaylorMade SIM2</h3>
             <p class="desc">10.5° loft, regular flex, headcover included. Light bag rash on crown, face is clean.</p>
-            <p class="price">$185</p>
-            <a href="#contact" class="btn btn-sm">Inquire</a>
+            <div class="card-footer">
+              <span class="price">$185</span>
+              <a href="#contact" class="btn btn-sm">Inquire</a>
+            </div>
           </div>
         </div>
 
         <div class="card">
           <div class="card-img placeholder-img">🏌️</div>
           <div class="card-body">
-            <h3>Irons — Callaway Apex '21 (5–PW)</h3>
-            <p class="condition">Condition: <span class="badge great">Excellent</span></p>
+            <div class="card-meta">
+              <span class="club-type">Irons</span>
+              <span class="badge mint">Like New</span>
+            </div>
+            <h3>Callaway Apex '21 (5–PW)</h3>
             <p class="desc">Stiff flex, KBS Tour shafts. Barely played, grips are fresh. No bag marks on faces.</p>
-            <p class="price">$495</p>
-            <a href="#contact" class="btn btn-sm">Inquire</a>
+            <div class="card-footer">
+              <span class="price">$495</span>
+              <a href="#contact" class="btn btn-sm">Inquire</a>
+            </div>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-img placeholder-img">🏌️</div>
+        <div class="card sold">
+          <div class="card-img placeholder-img">
+            🏌️
+            <div class="sold-overlay">SOLD</div>
+          </div>
           <div class="card-body">
-            <h3>Putter — Odyssey White Hot OG #7</h3>
-            <p class="condition">Condition: <span class="badge good">Good</span></p>
+            <div class="card-meta">
+              <span class="club-type">Putter</span>
+              <span class="badge good">Good</span>
+            </div>
+            <h3>Odyssey White Hot OG #7</h3>
             <p class="desc">34", standard grip. Some wear on sole, face insert is perfect. Classic feel.</p>
-            <p class="price">$95</p>
-            <a href="#contact" class="btn btn-sm">Inquire</a>
+            <div class="card-footer">
+              <span class="price sold-price">$95</span>
+              <span class="sold-label">Sold</span>
+            </div>
           </div>
         </div>
 
       </div>
-      <p class="listings-note">All clubs shipped via USPS Priority or local pickup available. More listings added regularly.</p>
+      <p class="listings-note">More listings added regularly — check back often or reach out to ask what's coming.</p>
     </div>
   </section>
 
   <section id="about" class="about">
-    <div class="container">
-      <h2>About</h2>
-      <p>I'm a weekend golfer who has gone through a few too many sets chasing the perfect bag. These are clubs I've gamed, tested, and moved on from. Every listing is honest — condition described as I'd want it described to me.</p>
-      <p>All sales are final, but I'll always answer questions before you buy. No bots, no middlemen — just one golfer to another.</p>
+    <div class="container about-inner">
+      <div class="about-text">
+        <div class="section-header">
+          <h2>About</h2>
+        </div>
+        <p>I'm a weekend golfer who has gone through a few too many sets chasing the perfect bag. These are clubs I've personally gamed, tested, and moved on from — not bulk resells, not mystery lots.</p>
+        <p>Every listing is described the way I'd want it described to me: accurate condition, real photos, no surprises. Questions before you buy are always welcome.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Honest listings</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">Fast</span>
+          <span class="stat-label">Ships same week</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">0</span>
+          <span class="stat-label">Middlemen</span>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="contact" class="contact">
-    <div class="container">
+    <div class="contact-inner">
+      <p class="contact-eyebrow">Ready to talk clubs?</p>
       <h2>Get in Touch</h2>
-      <p>Interested in a club or have a question? Reach out and I'll get back to you quickly.</p>
-      <a href="mailto:whutshisname@gmail.com" class="btn">Email Me</a>
+      <p>Interested in a listing or have a question? Send an email and I'll get back to you — usually same day.</p>
+      <a href="mailto:whutshisname@gmail.com" class="btn btn-gold">Email Me</a>
     </div>
   </section>
 
   <footer>
-    <p>© 2026 Tee It Higher · Built with ❤️ and too many rounds</p>
+    <div class="footer-inner">
+      <span class="footer-logo">⛳ Tee It Higher</span>
+      <span>© 2026 · All clubs personally owned and tested</span>
+    </div>
   </footer>
 
 </body>
